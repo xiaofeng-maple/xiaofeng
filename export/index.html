@@ -2150,6 +2150,7 @@ const Editor = {
     const row = el(`<div class="form-actions" style="border-top:1px dashed var(--line);margin-top:20px;padding-top:14px">
       <button type="button" class="btn btn-sm" onclick="Editor.downloadBackup()">⬇ 下载数据备份</button>
       <button type="button" class="btn btn-sm" onclick="Editor.exportSite()">🚀 导出静态版（上传云端）</button>
+      <button type="button" class="btn btn-sm" onclick="Editor.deploySite()" style="color:#22d3ee">📤 一键推送部署（GitHub）</button>
       <button type="button" class="btn btn-sm" onclick="Editor.setPassword()">🔑 设置管理密码</button>
       <button type="button" class="btn btn-primary" onclick="Editor.closeModal()">关闭</button></div>`);
     form.appendChild(row);
@@ -2390,6 +2391,18 @@ const Editor = {
       if (r.ok) toast("提示：上传 export/ 到 GitHub Pages / Cloudflare Pages 等托管，或双击 index.html 打开；如地球黑色说明本地服务是旧版，请重启服务后再导出", "ok");
     } catch (e) {
       toast("导出失败：无法连接本地服务", "err");
+    }
+  },
+
+  /* 一键推送部署：导出静态版 + git 提交并推送到 GitHub（Cloudflare 自动部署） */
+  async deploySite() {
+    toast("正在导出并推送到 GitHub…", "ok");
+    try {
+      const res = await fetch("/api/deploy", { method: "POST" });
+      const r = await res.json();
+      toast(r.ok ? "✅ " + r.msg : "❌ " + r.msg, r.ok ? "ok" : "err");
+    } catch (e) {
+      toast("推送失败：无法连接本地服务（请确认本地服务已启动）", "err");
     }
   }
 };
