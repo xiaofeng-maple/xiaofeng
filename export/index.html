@@ -3785,9 +3785,10 @@ async function initGlobe() {
     /* 交互：点击城市 → 聚焦 + 打开项目面板 */
     g.onPointClick = d => {
       if (!d) return;
-      if (d.type === "project") { globeFocus(d.value[0], d.value[1], 62); ProjPanel.openCity(d.city); }
-      else if (d.type === "work") { globeFocus(104.5, 34.5, 55); ProjPanel.openWork(d); }
-      else if (d.type === "study") { globeFocus(104.5, 34.5, 55); ProjPanel.openStudy(d); }
+      /* globeFocus(coord, distance)：coord 传 [经度, 纬度] 数组（勿拆成独立参数，否则经纬度错位成 NaN） */
+      if (d.type === "project") { globeFocus([d.value[0], d.value[1]], 62); ProjPanel.openCity(d.city); }
+      else if (d.type === "work") { globeFocus([104.5, 34.5], 55); ProjPanel.openWork(d); }
+      else if (d.type === "study") { globeFocus([104.5, 34.5], 55); ProjPanel.openStudy(d); }
     };
     /* 昼夜 */
     g.setDayNight(isChinaDay(), true);
