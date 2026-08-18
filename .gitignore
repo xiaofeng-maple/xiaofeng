@@ -1,0 +1,19 @@
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+*.swp
+
+# 依赖
+node_modules/
+
+# 本地备份（原始贴图）
+_orig-texture-backup/
+
+# 本地编辑数据（含管理密码，勿提交；部署用 export/ 内嵌数据）
+data/data.json
+data/data.json.bak
+
+# 调试 / 临时
+*.tmp
+preview-*.png
+globe-*.png
