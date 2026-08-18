@@ -132,9 +132,11 @@ function buildExport() {
     }
   }
   fs.writeFileSync(path.join(EXPORT_DIR, "说明.txt"),
-    "index.html 已内置地球真实地图纹理（dataURL），单独上传它也能正常显示地球。\n" +
-    "建议把本 export 文件夹（index.html + assets + images）整体上传到 GitHub Pages / Gitee Pages / Netlify 等任意静态托管，即可获得公开访问链接。\n", "utf8");
-  return { ok: true, msg: "已导出到 export/ 目录（index.html 单文件 + assets/）" };
+    "index.html 已内置地球贴图（dataURL），单独上传它也能正常显示地球。\n" +
+    "建议把本 export 文件夹（index.html + assets + images）整体上传到 GitHub Pages / Gitee Pages / Netlify / Cloudflare Pages 等任意静态托管，即可获得公开访问链接。\n", "utf8");
+  let idxSize = 0;
+  try { idxSize = Math.round(fs.statSync(path.join(EXPORT_DIR, "index.html")).size / 1024); } catch (e) { /* ignore */ }
+  return { ok: true, msg: "已导出到 export/（index.html " + idxSize + " KB · 地球贴图已内联，可直接双击打开或上传托管）" };
 }
 
 /* ---------------- HTTP 服务 ---------------- */

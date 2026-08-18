@@ -625,11 +625,12 @@ const Editor = {
 
   /* 导出静态版 */
   async exportSite() {
-    toast("正在生成静态版…", "ok");
+    toast("正在生成静态版（地球贴图将内联，不会黑球）…", "ok");
     try {
       const res = await fetch("/api/export");
       const r = await res.json();
       toast(r.ok ? "🚀 " + r.msg : "❌ " + r.msg, r.ok ? "ok" : "err");
+      if (r.ok) toast("提示：上传 export/ 到 GitHub Pages / Cloudflare Pages 等托管，或双击 index.html 打开；如地球黑色说明本地服务是旧版，请重启服务后再导出", "ok");
     } catch (e) {
       toast("导出失败：无法连接本地服务", "err");
     }
