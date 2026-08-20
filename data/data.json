@@ -1,0 +1,372 @@
+{
+  "profile": {
+    "name": "小枫",
+    "enName": "Maple",
+    "title": "项目财务管理 · 报表统筹 · 业财融合",
+    "birth": "1999.04",
+    "phone": "17373513347",
+    "email": "235307012@qq.com",
+    "location": "广州番禺",
+    "joinDate": "2022.07",
+    "company": "中建四局交通投资建设有限公司广州分公司",
+    "summary": "在工程财务一线摸爬滚打 4 年：管过账、编过表、跑过税局、砍过成本。现在正做一件让自己兴奋的事——把 AI 和数据揉进财务里，让每一笔数据都能开口说话。"
+  },
+  "about": {
+    "intro": "我是小枫，一名在工程财务一线工作 4 年的财务人。项目全周期核算、分公司合并报表、税务筹划、业财融合——这些不是简历上的关键词，而是我每天真实面对的战场。\n\n在同事眼里，我是「较真」的那一个：账不平不睡觉，勾稽对不上就从头捋，逻辑必须闭环，数字必须讲得出理由。对财务和数据，我负责且认真。\n\n在工作之外，我正走在财务数字化转型的路上：Excel 自动化、Power Query、AI 工具，能交给机器的绝不重复劳动，把自己留给人去思考、去判断。\n\n我相信财务的终点不是把账做平，而是从数据里挖出经营的价值；AI 不会取代财务，但会用 AI 的财务，会走得更远。",
+    "education": [
+      {
+        "school": "湖南城市学院",
+        "major": "财务管理",
+        "degree": "本科 · 管理学学士 · 全日制",
+        "date": "2018.09 – 2022.06"
+      }
+    ],
+    "certificates": [
+      "初级会计师",
+      "MS Office 二级",
+      "普通话二级乙等",
+      "驾驶证 C1",
+      "中级会计师（备考中：会计、财管）"
+    ],
+    "hobbies": [
+      {
+        "icon": "📊",
+        "title": "数据处理",
+        "text": "热爱 Excel 深度应用，擅长 Power Query 数据清洗与自动化，自学 Power BI 可视化。"
+      },
+      {
+        "icon": "🛠️",
+        "title": "工具开发",
+        "text": "结合财务痛点开发「分包成本还原及调拨还原工具」，一键出表，提升团队填报效率。"
+      },
+      {
+        "icon": "🤝",
+        "title": "团队协作",
+        "text": "作为财务小组长，善于协调分工、组织培训，乐于分享经验，帮助新同事快速成长。"
+      },
+      {
+        "icon": "⚡",
+        "title": "策略爱好者",
+        "text": "爱好研究新函数与逻辑建模；英雄联盟资深玩家（大师段位），注重策略与反应。"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "财务专业",
+      "score": 95,
+      "tags": "中级会计师在考（会计、财管）"
+    },
+    {
+      "name": "报表与合并",
+      "score": 92,
+      "tags": "合并报表编制 · 内部交易抵消 · 审计对接"
+    },
+    {
+      "name": "数据处理",
+      "score": 90,
+      "tags": "Excel 高级应用 · Power Query · 自研成本还原工具"
+    },
+    {
+      "name": "信息系统",
+      "score": 86,
+      "tags": "SAP · 业财一体化软件 · 久其报表系统"
+    },
+    {
+      "name": "办公与可视化",
+      "score": 84,
+      "tags": "MS Office 二级 · Power BI 自学 · AI 软件"
+    }
+  ],
+  "radar": {
+    "indicators": [
+      "财务核算",
+      "报表统筹",
+      "业财融合",
+      "数据分析",
+      "信息化工具",
+      "团队管理"
+    ],
+    "values": [
+      95,
+      92,
+      88,
+      90,
+      85,
+      82
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "title": "项目财务 · 报表小组长 · 资产化债专员",
+      "company": "中建四局交通投资建设有限公司广州分公司",
+      "date": "2022.07 – 2026.07",
+      "summary": "4 年项目财务管理经验，探索 AI 与财务数字化转型",
+      "points": [
+        "项目财务：项目全周期核算、资金、税务、成本与业财融合",
+        "报表小组长：分公司合并报表、财务分析与审计对接",
+        "资产化债专员：资产处置与债务优化，化债创效"
+      ],
+      "tags": [
+        "项目财务",
+        "合并报表",
+        "资产化债"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "name": "中建四局广州分公司",
+      "start": "2022.07",
+      "end": "2026.07",
+      "color": "#f5b942",
+      "detail": "项目财务 · 报表小组长 · 资产化债专员"
+    },
+    {
+      "name": "湖南城市学院 · 财务管理",
+      "start": "2018.09",
+      "end": "2022.06",
+      "color": "#8b5cf6",
+      "detail": "本科 · 管理学学士"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "香港城市大学（东莞）项目（一期）工程",
+      "city": "东莞",
+      "coord": [
+        113.75,
+        23.02
+      ],
+      "status": "",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": 2,
+      "name": "东莞市松山湖中心医院心血管病诊疗中心大楼工程项目",
+      "city": "东莞",
+      "coord": [
+        113.75,
+        23.02
+      ],
+      "status": "",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": 3,
+      "name": "西丽医院改扩建代建施工总承包",
+      "city": "深圳",
+      "coord": [
+        114.06,
+        22.55
+      ],
+      "status": "",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": 4,
+      "name": "罗湖区居民小区二次供水设施提标改造工程（第一阶段）(施工)Ⅴ标段",
+      "city": "深圳",
+      "coord": [
+        114.06,
+        22.55
+      ],
+      "status": "",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": 5,
+      "name": "南山区红花岭工业南区升级改造工程",
+      "city": "深圳",
+      "coord": [
+        114.06,
+        22.55
+      ],
+      "status": "",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": 6,
+      "name": "东莞市角美粮食储备库改扩建项目（二期）",
+      "city": "东莞",
+      "coord": [
+        113.75,
+        23.02
+      ],
+      "status": "",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": 7,
+      "name": "“一馆一中心”项目地基与基础工程",
+      "city": "深圳",
+      "coord": [
+        114.06,
+        22.55
+      ],
+      "status": "",
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": 8,
+      "name": "深圳供电局有限公司中康安居房及变电综合楼主体工程",
+      "city": "深圳",
+      "coord": [
+        114.06,
+        22.55
+      ],
+      "status": "",
+      "image": "",
+      "note": ""
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "分包成本还原及调拨还原工具",
+      "type": "财务工具",
+      "date": "2024",
+      "tags": [
+        "Excel",
+        "自动化",
+        "VBA"
+      ],
+      "desc": "结合财务痛点自主开发：一键还原分包成本与调拨数据、一键出表，帮助同事将效益表填报效率提升数倍。",
+      "link": "",
+      "cover": "linear-gradient(135deg,#0ea5e9,#6366f1)"
+    },
+    {
+      "id": 2,
+      "title": "财务监控台账",
+      "type": "财务工具",
+      "date": "2023",
+      "tags": [
+        "Excel",
+        "Power Query",
+        "预算管理"
+      ],
+      "desc": "按月跟踪各项目营收、利润、现金流，对标预算自动预警，支撑经营分析会决策。",
+      "link": "",
+      "cover": "linear-gradient(135deg,#22d3ee,#0ea5e9)"
+    },
+    {
+      "id": 3,
+      "title": "抵酒业务一体化台账",
+      "type": "财务工具",
+      "date": "2024",
+      "tags": [
+        "台账",
+        "业财融合",
+        "流程"
+      ],
+      "desc": "需求—发货—跟踪一体台账，按周闭环，从报需到发货 ≤ 15 天；支撑累计化债 800 万+。",
+      "link": "",
+      "cover": "linear-gradient(135deg,#8b5cf6,#d946ef)"
+    },
+    {
+      "id": 4,
+      "title": "个人档案库网站（本网站）",
+      "type": "网页作品",
+      "date": "2026.08",
+      "tags": [
+        "HTML/CSS",
+        "JavaScript",
+        "ECharts",
+        "可视化"
+      ],
+      "desc": "深空科幻风格交互式个人网站：总看板 + 3D 地球 + 作品集 + 博客 + 地图，支持管理后台增删改与静态导出。",
+      "link": "",
+      "cover": "linear-gradient(135deg,#0f172a,#1e3a8a)"
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "Power Query 学习笔记：三步完成数据清洗",
+      "category": "技能学习",
+      "tags": [
+        "Power Query",
+        "Excel",
+        "数据清洗"
+      ],
+      "date": "2025.03",
+      "summary": "从表头处理、类型修正到合并查询，用三步套路把脏数据变成可分析的结构化表格。",
+      "markdown": "## 为什么是 Power Query\n\n财务对账最耗时间的不是计算，而是**清洗**：表头不规范、文本型数字、一表多用途。Power Query（Excel 内置）可以录制并复用每一步清洗动作。\n\n## 三步套路\n\n1. **表头处理**：`将第一行用作标题`，删除多余的行列\n2. **类型修正**：把「文本」列改为「整数 / 小数 / 日期」，避免求和为 0\n3. **合并查询**：以项目编码为键，`左外部` 合并分包台账与付款台账\n\n> 关键心法：清洗步骤要**可复用** —— 下次新数据直接「刷新」即可。\n\n## 示例代码（M 语言）\n\n```\nlet\n    源 = Excel.CurrentWorkbook(){[Name=\"台账\"]}[Content],\n    提升表头 = Table.PromoteHeaders(源, [PromoteAllScalars=true]),\n    更改类型 = Table.TransformColumnTypes(提升表头,{{\"金额\", type number}})\nin\n    更改类型\n```\n\n## 收获\n\n- 自动化数据清洗，以达到可更进一步分析的状态\n\n---"
+    },
+    {
+      "id": 2,
+      "title": "本站开发记录：从网页简历到 3D 地球档案库",
+      "category": "技术实践",
+      "tags": [
+        "网站开发",
+        "Three.js",
+        "ECharts",
+        "可视化"
+      ],
+      "date": "2026.08",
+      "summary": "从一份 PDF 简历起步，做成可交互的数据可视化个人档案库：仪表盘、中国地图、3D 地球、内容管理与云端导出。",
+      "markdown": "# 本站开发记录：从网页简历到 3D 地球档案库\n\n> 小枫 · 个人档案库（xiaofeng-5fv.pages.dev）—— 深空科幻风格的数据可视化个人网站。\n\n## 项目定位\n\n从一份 PDF 简历起步，把它做成可交互的数据可视化个人档案库：首页总看板、3D 旋转地球、关于我（成长轨迹 · 宇宙穿梭时间轴）、作品集、学习记录、地点地图；支持站内可视化增删改内容（数据存本地 data.json），并一键导出静态只读版上传云端。\n\n## 开发时间线（2026.08）\n\n### 2026.08.15 · 初始搭建\n\n- 建立项目骨架：index.html + css/style.css + js/app.js + js/md.js + data/data.json\n- 用 ECharts 实现首页 KPI 卡片、能力雷达图、经历时间轴（甘特）、中国地图打点\n- 下载全国 GeoJSON（DataV）注册为 ECharts 地图，effectScatter 脉冲点 + scatter 项目点\n\n### 2026.08.16 · 交互与地图\n\n- 中国地图：城市点击自动放大聚焦 + 项目信息面板（城市级汇总 + 项目明细卡）\n- 地点索引列表与地图联动；滚轮在图表区域缩放、页面区域滚动互不冲突\n- 本地服务 server.js（静态 + 数据读写 + 导出），启动网站.bat 一键启动\n\n### 2026.08.17 · 3D 地球（Three.js）\n\n- 还原 yzyy.cloud/earth 风格的 3D 地球：白天 / 夜晚 Shader 纹理混合、云层、大气辉光、轨道光环、人造卫星、背景星系\n- 金色点位 = 工作地（广州）、紫色 = 母校（益阳）、青色 = 项目城市（东莞 / 深圳，点大小随项目数）\n- 中国省份边界高亮（china.geo.js，青色发光线条）；飞线：母校 → 工作 → 项目城市\n- 点击点位 → 地球自动放大到城市 + 弹出项目面板；🌐 回到全球视角恢复自动旋转\n- 悬停 tooltip、金色定位光圈、标签 DOM 投影\n\n### 2026.08.18 · 收尾、修复与部署\n\n- 全站品牌更新：小枫 / Maple（单字 枫）\n- 修复：点击地球点位后地球消失（globeFocus 参数改为数组，经纬度不再错位成 NaN）\n- 修复：导出黑地球（贴图内联 dataURL，导出静态版任何环境都不白球 / 黑球）\n- 仓库策略：仓库仅保留 export/ 部署内容；本地源码独立维护\n- 部署：Cloudflare Pages（xiaofeng-5fv.pages.dev）\n\n## 提交记录\n\n- 50a3c82 初始提交：个人档案库（export 静态版 + 源码）\n- 03ee00a 修复导出黑地球（贴图内联 dataURL）+ 优化面板导出提示\n- d450c58 仓库仅保留 export/ 部署内容，源码 / 后台移出仓库\n- e3e7345 自动推送 2026-08-18-02-21\n- 38ce376 全站品牌更新：小枫 / Maple（单字 枫）\n- 5930da3 修复：点击地球点位后地球消失（globeFocus 参数改为数组）\n\n## 技术栈回顾\n\n纯前端 + 零依赖 Node 本地服务，无外部 CDN、完全离线可用：\n\n- Three.js（three.min.js + OrbitControls）→ 3D 地球\n- ECharts（本地化）→ 2D 中国地图与图表\n- 原生 JS 单页多视图 + Markdown 渲染（js/md.js）\n- 数据：data/data.json（增删改自动备份 data.json.bak）\n\n## 后续计划\n\n- 学习记录持续更新（本文 + 3D 地球开发文档）\n- 更多项目图片与作品案例\n- 站点性能与移动端体验继续优化"
+    },
+    {
+      "id": 4,
+      "title": "🌐 3D 地球开发文档（diqiu-feng）",
+      "category": "技术实践",
+      "tags": [
+        "Three.js",
+        "3D 地球",
+        "开发文档"
+      ],
+      "date": "2026.08",
+      "summary": "个人档案库首页 3D 地球的完整开发文档：架构、场景构建、交互聚焦、昼夜切换、已知问题与扩展指南（已沉淀为 diqiu-feng 技能）。",
+      "markdown": "# 🌐 3D 地球开发文档（diqiu-feng）\n\n> 个人档案库首页 3D 旋转地球的完整开发文档，已沉淀为 Codex 技能 `diqiu-feng`。\n> 风格参考：yzyy.cloud/earth\n\n## 1. 概述\n\n纯 Three.js 实现的 3D 地球，无 CDN、完全离线。地球自动旋转、可拖拽缩放；贴球面渲染城市光点（工作 / 母校 / 项目城市），点击点位自动聚焦到城市并联动项目面板；支持白天 / 夜晚 / 自动昼夜切换。\n\n## 2. 依赖与文件\n\n| 文件 | 说明 |\n| --- | --- |\n| `js/globe3d.js` | 地球模块（Globe3D 单例），场景构建与交互全在这里 |\n| `js/app.js` | 站点集成：initGlobe / globePoints / globeFocus 等 |\n| `earth-demo.html` | 独立演示页（可单独打开验证地球） |\n| `assets/three.min.js` | Three.js 运行时（动态加载） |\n| `assets/OrbitControls.js` | 轨道控制器（动态加载） |\n| `assets/china.geo.js` | 中国省份边界 GeoJSON（懒加载） |\n| `assets/earth3d-day.jpg` / `assets/earth3d-night.jpg` | 昼夜贴图（**注意：两者对调用**） |\n| `assets/earth3d-cloud.png` / `assets/earth3d-aperture.jpg` | 云层 / 光环贴图 |\n\n## 3. 初始化流程\n\n```js\nconst g = await Globe3D.init(el, { radius: 100 });\n```\n\n- 动态加载 three.min.js 与 OrbitControls.js（window.THREE 不存在时）\n- 创建 WebGLRenderer（antialias + alpha，pixelRatio 上限 1.5）\n- 相机默认对准中国（34.5N, 104.5E），入场 2.2s 从远处飞近\n- OrbitControls：启用阻尼、禁用平移、距离 EARTH_R*1.25 ~ *9、自动旋转\n- 构建场景：地球 → 云层 → 大气 → 光环 → 卫星 → 星系 → 覆盖层（标签 / tooltip）\n- IntersectionObserver + visibilitychange：离开视口 / 标签页隐藏时暂停渲染循环\n\n## 4. 场景构建\n\n### 4.1 地球主体 _buildEarth()\n\nShaderMaterial 实现昼夜混合：\n\n- uniforms：dayMap / nightMap / uDayNight / uSunDir\n- **白天 / 夜晚贴图对调**：earth3d-night（较亮）作白天，earth3d-day（深蓝）作夜晚\n- 片元着色器：`mix(night * 1.6, day * 1.25, uDayNight) * lit`，lit 由法线与太阳方向点积 + 环境光 0.38 计算\n\n### 4.2 云层 / 大气 / 光环 / 卫星 / 星系\n\n- 云层：透明 MeshLambertMaterial 贴图球（半径 1.025R），动画中缓慢自转\n- 大气：AdditiveBlending 辉光 Shader（uColor=#4d9fff，uPower=3.2）\n- 光环：相机朝向的细圆环（1.42R，LineBasicMaterial 青色发光）\n- 卫星：沿光环公转的银灰色圆柱 + 太阳能板 + 光晕\n- 星系：背景装饰\n- 金色定位光圈 showRing()：先收缩定位，再持续脉动（呼吸 + 缓旋）\n\n### 4.3 数据点 setPoints()\n\n```js\npoints: [{ name, type: \"work|study|project\", city, count, value: [lng, lat, 0, n], note, projects }]\n```\n\n- 颜色：work=#f5b942（金） study=#a78bfa（紫） project=#22d3ee（青）\n- 用 canvas 径向渐变生成发光 Sprite（makeGlowSprite），贴在球面 1.012R\n- 每个点配一个 DOM 标签（.globe3d-label），约 15fps 更新位置（不每帧改 DOM）\n\n### 4.4 飞线 buildFlyLines()\n\n- 输入连接 `[{ from:[lng,lat], to:[lng,lat], color, colorHex }]`\n- 起点 / 终点贴球面 1.01R，中点抬到 1.5R，QuadraticBezierCurve3 弧线\n- 每条线一个移动光点（comet），速度 0.22~0.34 随机\n\n### 4.5 中国省份边界 buildChinaBorders(geo)\n\n- 遍历 china.geo.js features，把每个 Polygon ring 的相邻点经纬度转三维向量\n- LineSegments 青色发光线条（0x35e0ff，AdditiveBlending），贴在 1.01R\n\n## 5. 交互\n\n- pointermove → 射线拾取（Raycaster 对 Sprite 求交）→ 悬停放大 1.55 倍 + tooltip + 金色光圈\n- pointerdown（左键）→ 点击回调 onPointClick(data)\n- focusOn(lng, lat, dist)：沿城市径向摆动相机到屏幕中央，暂停自动旋转，球面插值（相机方向 slerp + 距离 lerp，平滑不穿越地球），1s 动画\n  - dist 兼容站点原 echarts 语义：55≈中国视角、170≈全球视角\n- resetView()：恢复自动旋转 + 回到中国视角（1.2s）\n- setDayNight(isDay) / setOverride(\"auto|day|night\")：昼夜跟随北京时间或手动\n\n## 6. 站点集成（app.js）\n\n- initGlobe()：懒加载 china.geo.js → Globe3D.init → setPoints(globePoints()) → buildChinaBorders → buildFlyLines（母校→工作→项目城市）→ onPointClick 联动 ProjPanel → setDayNight\n- globePoints()：项目按城市聚合为一个点（value 第 4 位 = 项目数），+ 地点（工作 / 母校）\n- globeFocus(coord, distance)：**coord 必须传 [经度, 纬度] 数组**（拆参会导致 NaN）\n- globeChina / globeLocate / globeShine / globeReset / toggleGlobeDayNight / isSoftwareGL / initGlobeBrightness\n\n## 7. 已知问题与踩坑\n\n| 问题 | 原因 / 解法 |\n| --- | --- |\n| 点击点位后地球消失 | globeFocus 参数拆成独立参数 → 经纬度 NaN；必须传数组 |\n| 导出 / 云端白球或黑球 | 贴图路径失效；导出时贴图内联 dataURL |\n| 无 GPU 卡顿 | 软件渲染（SwiftShader/llvmpipe）自动关闭 bloom |\n| echarts-gl 2.0.9 兼容 | effectScatter3D/lines3D 与 echarts5 不兼容，改用多层 scatter3D 或直接 Three.js |\n| 标签闪烁 | DOM 覆盖层 15fps 更新，不要每帧操作 |\n\n## 8. 如何扩展\n\n- 加城市：data.json → locations 或 projects（同城自动聚合为一点）\n- 改点位颜色：setPoints() 中按 type 映射\n- 换贴图：替换 assets/earth3d-*.jpg / png（注意昼夜对调）\n- 更多飞线：buildFlyLines(conns) 传入新连接\n- 独立部署：earth-demo.html 单页可脱离站点运行\n\n## 9. 技能位置\n\n本文档对应 Codex 技能 `diqiu-feng`（C:/Users/HUAWEI/.codex/skills/diqiu-feng/），内含完整源码、演示页、贴图与依赖库，可整体复用到其他项目。"
+    },
+    {
+      "id": 3,
+      "title": "SAP 报表合并小技巧：内部交易抵消的检查清单",
+      "category": "工作沉淀",
+      "tags": [
+        "SAP",
+        "合并报表",
+        "方法论"
+      ],
+      "date": "2025.11",
+      "summary": "200+ 项目合并时最容易漏抵消的 5 个场景，整理成清单后错误率明显下降。",
+      "markdown": "## 合并报表的痛点\n\n分公司 9 个节点、200+ 项目合并，最怕**内部交易未抵消**导致的虚增：\n\n1. 项目间材料调拨（有结算单但未入账）\n2. 内部分包（总包-分包互为关联方）\n3. 资金拆借利息\n4. 应收应付对开\n5. 固定资产内部销售\n\n## 检查清单（每月节点必查）\n\n- [x] 调拨单与账面金额核对一致\n- [x] 分包成本与应付台账勾稽\n- [x] 内部往来科目余额方向正确\n- [x] 抵消分录摘要规范可追溯\n\n## 效果\n\n建立清单后，节点报表差错率明显下降，2025 年报实现**无保留意见**。\n\n*本文为示例文章，可在「管理 → 学习记录」中编辑或删除。*"
+    }
+  ],
+  "locations": [
+    {
+      "name": "广州",
+      "coord": [
+        113.26,
+        23.13
+      ],
+      "type": "work",
+      "note": "现居 · 公司所在地（中建四局广州分公司）"
+    },
+    {
+      "name": "益阳",
+      "coord": [
+        112.36,
+        28.55
+      ],
+      "type": "study",
+      "note": "母校 · 湖南城市学院（2018–2022）"
+    }
+  ],
+  "settings": {
+    "siteTitle": "小枫 · 个人档案库",
+    "footerNote": "数据可视化档案 · ECharts 驱动 · 本地编辑 / 云端展示",
+    "siteStart": "2026-08-15",
+    "adminPassword": "houkanfeng123.."
+  }
+}
