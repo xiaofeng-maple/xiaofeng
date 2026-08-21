@@ -1,2 +1,0 @@
-index.html 已内置地球贴图（dataURL），单独上传它也能正常显示地球。
-建议把本 export 文件夹（index.html + assets + images）整体上传到 GitHub Pages / Gitee Pages / Netlify / Cloudflare Pages 等任意静态托管，即可获得公开访问链接。
