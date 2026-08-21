@@ -1988,5 +1988,5 @@ window.App = App;
 window.Reader = Reader;
 window.ProjPanel = ProjPanel;
 window.toast = toast;
-initSplash(); /* 进场动画立即显示，遮挡后台加载 */
+/* 进场动画已移除：档案室改为二向箔展开入场 */
 App.init();

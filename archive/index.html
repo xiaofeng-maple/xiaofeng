@@ -6,47 +6,49 @@
 <title>小枫 · 个人档案库</title>
 <meta name="description" content="小枫 · 个人档案库：关于我（含成长轨迹）、作品集、学习记录、项目地图 —— 数据可视化个人网站">
 <link rel="stylesheet" href="css/style.css?v=20260818">
-</head>
+<style>
+/* 二向箔展开入场（幕布式：页面零变换，星空/布局不受影响） */
+/* 二向箔：看板被压成一条金线，金线再按「档案库展开进度」展开为页面 */
+#foilIntro{position:fixed;inset:0;z-index:99999;pointer-events:none;visibility:hidden;
+  background:radial-gradient(ellipse at center,rgba(4,10,24,.5) 0%,rgba(2,5,12,.85) 100%)}
+#foilIntro .fl-line{position:absolute;left:6%;right:6%;top:50%;height:2px;margin-top:-1px;
+  background:linear-gradient(90deg,transparent,#ffe9a8 25%,#ffd76a 50%,#ffe9a8 75%,transparent);
+  box-shadow:0 0 44px rgba(255,214,106,.95),0 0 120px rgba(255,190,80,.5);transform:scaleX(0)}
+#foilIntro .fl-prog{position:absolute;left:0;right:0;top:53%;text-align:center;
+  color:rgba(255,233,176,.85);font-size:14px;letter-spacing:4px;text-shadow:0 0 16px rgba(255,214,106,.7)}
+#foilIntro .fl-prog b{font-size:20px;color:#ffe9b0}
+#appWrap{transform-origin:50% 50%}
+</style>
 <body>
-
-<!-- ============ 进场动画：御剑穿越时空 ============ -->
-<div id="splash" aria-hidden="true">
-  <canvas id="splashCanvas"></canvas>
-  <div class="splash-inner">
-    <div class="sword-figure">
-      <svg viewBox="0 0 260 150" class="sword-svg" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="swTail" x1="1" y1="0" x2="0" y2="0">
-            <stop offset="0" stop-color="#7de3f5" stop-opacity=".95"/>
-            <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-          </linearGradient>
-          <linearGradient id="swBlade" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0" stop-color="#eaffff"/>
-            <stop offset="0.55" stop-color="#9fe8ff"/>
-            <stop offset="1" stop-color="#3ab8ff"/>
-          </linearGradient>
-        </defs>
-        <!-- 御剑光尾 -->
-        <path d="M92 75 C 48 68 20 74 -8 70" stroke="url(#swTail)" stroke-width="7" stroke-linecap="round" fill="none"/>
-        <path d="M92 75 C 50 82 22 80 -6 84" stroke="url(#swTail)" stroke-width="4" stroke-linecap="round" fill="none" opacity=".55"/>
-        <!-- 飞剑 -->
-        <path d="M96 71 L 192 71 L 192 79 L 96 79 Z" fill="url(#swBlade)"/>
-        <path d="M96 71 L 58 75 L 96 79 Z" fill="#dff7ff"/>
-        <path d="M96 70 L 96 80 L 102 80 L 102 70 Z" fill="#6fc9ff"/>
-        <rect x="192" y="72.5" width="26" height="5" rx="2.5" fill="#8fd8ff"/>
-        <rect x="210" y="70" width="5" height="10" rx="2" fill="#b3ecff"/>
-        <!-- 侠士：盘坐剪影 -->
-        <circle cx="152" cy="46" r="12" fill="#0e2a55"/>
-        <circle cx="156" cy="37" r="6" fill="#0e2a55"/>
-        <path d="M138 54 Q 152 46 168 54 L 172 74 Q 152 84 132 74 Z" fill="#12305f"/>
-        <path d="M132 62 Q 116 58 106 66 Q 118 72 134 70 Z" fill="#1b4d94" opacity=".9"/>
-        <path d="M170 60 Q 184 56 192 64 Q 180 70 168 68 Z" fill="#1b4d94" opacity=".9"/>
-        <circle cx="147" cy="43" r="3" fill="#cff4ff"/>
-      </svg>
-    </div>
-  </div>
-  <div class="splash-bar"><span></span></div>
+<div id="foilIntro" aria-hidden="true">
+  <div class="fl-line"></div>
+  <div class="fl-prog">MAPLE · ARCHIVE · 展开 <b>0%</b></div>
 </div>
+<script>
+(function(){
+  /* 二向箔：金线随「展开进度」拉长，页面从金线中展开（约 2s 丝滑展开） */
+  var fi=document.getElementById('foilIntro');
+  var line=fi.querySelector('.fl-line'), prog=fi.querySelector('.fl-prog'), b=prog.querySelector('b');
+  var wrap=document.getElementById('appWrap');
+  var t0=performance.now(), DUR=2000;
+  fi.style.visibility='visible';
+  line.style.transform='scaleX(0)';
+  function frame(now){
+    var k=Math.min(1,(now-t0)/DUR);
+    var e=1-Math.pow(1-k,3);                 /* ease-out 缓出 */
+    line.style.transform='scaleX('+e.toFixed(4)+')';
+    if(wrap) wrap.style.transform='scaleY('+(0.04+e*0.96).toFixed(4)+')';
+    b.textContent=Math.round(e*100)+'%';
+    if(k<1){ requestAnimationFrame(frame); }
+    else{
+      if(wrap) wrap.style.transform='none';
+      fi.style.transition='opacity .8s ease'; fi.style.opacity='0';
+      setTimeout(function(){ if(fi&&fi.parentNode) fi.parentNode.removeChild(fi); },900);
+    }
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
 
 <canvas id="stars"></canvas>
 <div class="bg-grid"></div>
@@ -59,7 +61,7 @@
   <div class="planet b-venus"></div>
 </div>
 
-<div id="app">
+<div id="appWrap"><div id="app">
 
   <header>
     <div id="progress-track" aria-hidden="true"><div id="progress-bar"></div></div>
@@ -328,6 +330,7 @@
   </div>
   <button class="welcome-toast-close" onclick="closeWelcome()" aria-label="关闭">✕</button>
 </div>
+</div>
 
 <!-- 图表库由 app.js 动态注入（动画期间后台加载，兼容 file://） -->
 <script src="js/md.js?v=20260818"></script>
@@ -335,5 +338,9 @@
 <script src="js/globe3d.js?v=20260818"></script>
 <script src="js/app.js?v=20260818"></script>
 <a id="backBoard" href="../" title="返回看板大屏" style="position:fixed;left:14px;top:14px;z-index:9999;display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;background:rgba(3,16,24,.72);border:1px solid rgba(34,211,238,.45);color:#22d3ee;font-size:13px;letter-spacing:1px;text-decoration:none;box-shadow:0 0 14px rgba(34,211,238,.25);backdrop-filter:blur(4px)">← 返回看板</a>
+<style>
+@keyframes flLine{0%{transform:scaleX(0);opacity:0}25%{opacity:1}100%{transform:scaleX(1);opacity:1}}
+@keyframes flText{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:none}}
+</style>
 </body>
 </html>
